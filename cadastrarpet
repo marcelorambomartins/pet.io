@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>Pet</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" type='text/css'>
+   </head>
+   <body>
+      <nav role="navigation" class="navbar navbar-default">
+      <div class="navbar-header">
+      <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+        <span class="sr-only">Navegação Responsiva</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      </div>
+      <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="https://marcelorambomartins.github.io/pet.io/"><span class="glyphicon glyphicon-home"></span></a></li>
+          <li><a href="http://localhost/viralate/caes/listar"><span class="fa fa-paw"></span> Animais para adoção</a></li>
+          <li><a href="http://localhost/viralate/caes/cadastrar"><span class="fa fa-paw"></span> Cadastrar Caes</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <div class="btn-link">
+            <button style="text-decoration:none" type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>ADM</button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="http://localhost/viralate/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+              <li><a href="http://localhost/viralate/pessoas/alterar"><span class="glyphicon glyphicon-list-alt"></span> Editar Cadastro</a></li>
+              <li><a href="http://localhost/viralate/pessoas/gerenciar"><span class="glyphicon glyphicon-list-alt"></span> Gerenciar Usuários</a></li>
+              <li><a href="http://localhost/viralate/adocoes/listar"><span class="glyphicon glyphicon-list-alt"></span> Gerenciar Adoções</a></li>
+              <li><a href="http://localhost/viralate/pessoas/cadastrar"><span class="glyphicon glyphicon-user"></span> Cadastrar</a></li>
+              <li><a href="http://localhost/viralate/pessoas/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+          </div>
+        </ul>
+      </div>
+      </nav>
+      <div class="container">
+      <h3 class="text-center">Cadastrar Pet</h3>
+      <!--aqui vai o cadastro dos Pets-->
+      </div>
+   </body>
+</html>
